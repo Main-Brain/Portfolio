@@ -1,0 +1,22 @@
+header {
+  position: absolute;
+  top: 17px;
+  right: 30px;
+  z-index: 100;
+  
+  .header-nav {
+    position: relative;
+    -webkit-backface-visibility: hidden;
+
+    li {
+      position: relative;
+      display: inline-block;
+      *display: inline;zoom:1;
+      -webkit-backface-visibility: hidden;
+      vertical-align: middle;
+      font-size: 1.25em;
+      padding: 3px;
+    }
+  }
+
+}
