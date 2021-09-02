@@ -1,6 +1,8 @@
 const webpack = require('webpack');
 const path = require('path');
 
+const port = process.env.PORT || 3000;
+
 module.exports = {
   entry: ['@babel/polyfill', './src/js/index.js', './src/scss/main.scss'],
 
@@ -39,4 +41,13 @@ module.exports = {
     ],
   },
   mode: 'production',
+
+  devServer: {
+    publicPath: '/',
+    contentBase: './public',
+    host: 'localhost',
+    port,
+    open: false,
+    hot: true,
+  },
 };
