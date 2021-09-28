@@ -1,10 +1,12 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Home, About, Skills, Project, Contcat } from "@/containers";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {
+  Home, About, Skills, Project, Contcat,
+} from '@/containers';
 import { Navigation } from '@/components';
 
-const rootElement = document.getElementById("root");
+const rootElement = document.getElementById('root');
 
 ReactDOM.render(
   <Router>
@@ -17,5 +19,5 @@ ReactDOM.render(
       <Route exact path="/contcat" component={Contcat} />
     </Switch>
   </Router>,
-  rootElement
+  rootElement,
 );

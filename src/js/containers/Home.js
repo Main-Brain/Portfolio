@@ -1,11 +1,7 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react';
 
-const Home = props => {
-
-  return (
-    <div>
-    </div>
-  );
-}
+const Home = (props) => (
+  <div />
+);
 
 export default Home;

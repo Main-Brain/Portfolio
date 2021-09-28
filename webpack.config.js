@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3212;
 
 module.exports = {
   entry: ['@babel/polyfill', './src/js/index.js', './src/scss/main.scss'],
@@ -38,6 +38,13 @@ module.exports = {
         ],
         exclude: /node_modules/,
       },
+      {
+        test: /\.jpg$/,
+        use: [{
+          loader: 'file-loader',
+        }],
+      },
+
     ],
   },
   mode: 'production',

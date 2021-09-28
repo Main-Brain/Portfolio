@@ -1,12 +1,20 @@
-import React, { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import React, { useEffect } from 'react';
 
-const Contcat = props => {
+import github from '../../images/github.jpg';
+
+const Contcat = () => {
+  const a = 1;
 
   return (
-    <div>
+    <div className="concat">
+      <p className="email">
+        EMAIL:
+        <br />
+        <span className="my-email">rlswnsehd@gmail.com</span>
+      </p>
+      <img src={github} alt="" />
     </div>
   );
-}
+};
 
 export default Contcat;

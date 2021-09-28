@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c25f19be-1afb-4545-b77f-5fb984353ccc" name="Local" url="http://172.30.1.80">
+        <fileTransfer rootFolder="/media/koreafirstec/disk2/project/djangoCMS" accessType="SFTP" host="172.30.1.80" port="22" sshConfigId="ddce693c-9f9d-4d0e-b2ff-d5cd6f773fb0" sshConfig="Local">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
