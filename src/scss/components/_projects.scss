@@ -1,0 +1,59 @@
+.projects {
+  flex-wrap: wrap;
+  max-width: 71.25rem;
+  margin: 0 auto;
+
+  > .project {
+    padding: 3rem;
+    margin: 0 auto 2rem;
+    border-radius: 1rem;
+    background-color: white;
+    -webkit-box-shadow: 1rem 1rem 1rem 0 rgb(68 68 68 / 20%);
+
+    > .title {
+      padding-bottom: .5rem;
+      font-family: Roboto, Arial, sans-serif;
+      font-weight: bold;
+      font-size: 2.5rem;
+      color: #222;
+      text-align: center;
+    }
+
+    > .period {
+      margin-bottom: 2rem;
+      font-weight: 400;
+      font-size: 1rem;
+      color: #6c757d;
+      text-align: center;
+      opacity: .8;
+    }
+
+    > .content {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      -webkit-box-pack: center;
+
+      > .images {
+        overflow: hidden;
+        position: relative;
+        width: 50%;
+        margin-right: 3rem;
+      }
+
+      > .description {
+        width: calc(50% - 3rem);
+
+        > .role {
+          padding-bottom: 1rem;
+          margin-bottom: 1rem;
+          border-bottom: 1px solid #ccc;
+          font-weight: 400;
+          font-size: 1rem;
+        }
+      }
+
+    }
+  }
+
+}

@@ -1,3 +1,4 @@
 import Navigation from './Navigation';
+import SkillDetail from './SkillDetail';
 
-export { Navigation };
+export { Navigation, SkillDetail };
